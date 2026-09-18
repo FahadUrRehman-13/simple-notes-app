@@ -71,7 +71,7 @@ npm install
 npm start
 ```
 
-## 2. Setup steps-Backend
+## 2. Setup steps-FrontEnd
 
 ```bash
 cd notes-app
