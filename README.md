@@ -33,5 +33,50 @@ https://github.com/FahadUrRehman-13/simple-notes-app.git
 
 ```text
 notes-app/
+├── .gitignore
+├── README.md
+├── screenshots/
+│   ├── ui-preview.png
+│   └── delete-action.png
+│
 ├── server/
+│   ├── package.json
+│   ├── server.js
+│   ├── config/
+│   │   └── db.js
+│   ├── models/
+│   │   └── Note.js
+│   └── routes/
+│       └── noteRoutes.js
+│
 └── client/
+    ├── package.json
+    ├── index.html
+    ├── vite.config.js
+    └── src/
+        ├── App.jsx
+        ├── main.jsx
+        └── index.css
+
+```
+# Setup Instructions
+
+## 1. Setup steps-Backend
+
+```bash
+git clone https://github.com/FahadUrRehman-13/simple-notes-app.git
+cd notes-app
+cd server
+npm install
+npm start
+```
+
+## 2. Setup steps-Backend
+
+```bash
+cd notes-app
+cd client
+npm install
+npm run dev
+```
+Open this address in a browser : http://localhost:5173.
